@@ -1,0 +1,20 @@
+.name
+{
+    color:red;
+}
+button
+{
+    background-color:blue;
+    padding:20px;
+    border-radius:5px;
+    transition:1s;
+    border-color:red;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+button:hover
+{
+    background-color:brown;
+    margin-left:500px;
+}

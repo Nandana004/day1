@@ -1,0 +1,126 @@
+
+.oswald-unique {
+    font-family: "Oswald", sans-serif; /* Oswald is sans-serif, not serif */
+    font-style: normal;
+  }
+  
+body, html {
+    margin: 0; /* Removes default margin around the body */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Ensures consistent sizing across elements */
+}
+body
+{
+    font-family:Georgia, Times, 'Times New Roman', serif,serif,arial;
+    font-weight:bold;
+}
+.name
+{
+    height:10pv;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box
+{
+    background-color:#00203fff;
+    height:10pv;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#adefd1ff;
+    
+}
+.details {
+    background-color:#adefd1ff;
+    color:#00203fff;
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically align items */
+    padding: 20px; /* Adds spacing inside the box */
+    gap: 20px; /* Adds space between the image and content */
+}
+
+.details img {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Keep a consistent height for circular effect */
+}
+
+.details h2 {
+    margin: 0; /* Removes extra spacing around the heading */
+    line-height: 1.5; /* Adjust line spacing for readability */
+}
+
+.contacts {
+    margin: 0; /* Removes any margin around the contacts section */
+    padding: 20px; /* Adds consistent internal spacing */
+    background-color:#00203fff;
+    color:#adefd1ff;
+    
+}
+
+.contacts h3, .contacts h4 {
+    margin: 0; /* Removes default margins from headings */
+    padding: 5px 0; /* Adds consistent vertical spacing */
+}
+
+.contacts p {
+    margin: 0; /* Removes margin from paragraphs, if any */
+}
+
+.edu {
+    text-align: center; /* Center align the heading and content */
+    padding: 20px; /* Adds padding inside the section for better spacing */
+    background-color:#adefd1ff;
+    color:#00203fff;
+}
+
+.edu h1 {
+    font-size: 2em; /* Adjust heading size as needed */
+    margin-bottom: 20px; /* Adds space between the heading and the table */
+}
+
+.edu table {
+    margin: 0 auto; /* Centers the table below the heading */
+    border-collapse: collapse; /* Ensures a clean table layout */
+    width: 80%; /* Adjust width as needed */
+    border: 1px solid black; /* Adds border around the table */
+}
+
+.edu td, .edu th {
+    padding: 10px; /* Adds space inside table cells */
+    text-align: center; /* Center aligns text inside cells */
+    color:#00203fff;
+    border: 1px solid #00203fff;
+    
+}
+
+.edu img {
+    width: 150px; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image within the cell */
+}
+
+.skills {
+    text-align: center; /* Center align the heading */
+    padding: 20px; /* Add padding inside the container */
+    background-color:#00203fff;
+    color:#adefd1ff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for the section */
+}
+
+.skills h1 {
+    font-size: 2em; /* Adjust the size of the heading */
+    margin-bottom: 20px; /* Space between heading and images */
+}
+
+.skills img {
+    display: inline-block; /* Align images in a row */
+    width: 150px; /* Set a fixed width for each image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Space around each image */
+    border: 2px solid #ddd; /* Optional: Border around images */
+    border-radius: 5px; /* Optional: Rounded corners for images */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect for images */
+}
+

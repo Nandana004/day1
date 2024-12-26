@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>My portfolio</title>
+        <link href="about.css" rel="stylesheet">
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+        
+            td {
+                padding: 10px;
+                text-align: center;
+            }
+        
+            img {
+                width:200px; /* Resize image */
+                height: auto;
+            }
+            .image-row {
+            display: flex; /* Arrange images in a row */
+            flex-wrap: wrap; /* Allow images to wrap to the next line */
+            gap: 10px; /* Optional: Adds space between images */
+            justify-content: flex-start; 
+        }
+
+        .image-row img {
+            max-width: 100%; /* Ensures images are responsive */
+            height: auto; /* Keeps aspect ratio intact */
+            width: 150px; /* Set a fixed width for each image */
+            border: none; /* Removes any borders around the images */
+        }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h1>WELCOME TO MY PORTFOLIO!!</h1>
+        </div>
+        <div class="details">
+            <img src="nandana.jpeg" alt="My Photo">
+            <div>
+                <h2>Myself Nandana Manoj.<br>I am a 3rd year computer science and design engineering student.<br></h2>
+    
+                <h2>I am passionate about transforming theoretical knowledge into practical applications and have a keen interest in web programming.</h3>
+                <h2>I am eager to expand my skills through internships, projects, and collaborations.</h3>
+            </div>
+        </div>
+        
+        <div class="contacts">
+            <h1 style="text-align: center;">DETAILS</h1>
+            <h3>Phno:8590986529</h3>
+            <h3>email:nandanaaamanoj04@gamil.com</h3>
+            <h3>locality:angamaly</h3>
+        </div>
+        <div class="edu">
+            <h1>EDUCATION</h1>
+            <table>
+                <tr>
+                    <td rowspan="2"><h3>College: FISAT</h3></td>
+                    <td><img src="fisat.jpg" alt="FISAT"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://maps.app.goo.gl/sKappCNEoBfzMJ9U9" target="_blank">View Location on Google Maps</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><h3>School:</h3></td>
+                    <td><h3>Viswajyothi CMI Public School (Till class X)</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Vidyadhiraja Vidyabhavan Senior Secondary School(+1 and +2)</h3></td>
+                </tr>
+        </table>
+        </div>
+        <div class="skills"> 
+    <h1>SKILLS</h1>
+    <img src="Java.jpg" alt="Java">
+    <img src="python.webp" alt="Python">
+    <img src="js.png" alt="JavaScript">
+    <img src="Csharp.png" alt="C-Sharp">
+</div>
+
+    </body>
+</html>

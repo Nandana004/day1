@@ -1,0 +1,17 @@
+.box
+{
+    background-color:blueviolet;
+    height:10pv;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-style:italic;
+}
+.contents
+{
+    justify-content:center;
+    align-items:center;
+    color:blue;
+    font-style:italic;
+}
